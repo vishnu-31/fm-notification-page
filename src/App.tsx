@@ -60,7 +60,10 @@ function App() {
         <button className='text-gray-500 hover:text-blue-400' type="button">Mark all as read</button>
       </div>
       <div className="flex flex-col w-full my-3">
-        <Notification/>
+        {NotificationList.map(item,idx) =>(
+          <Notification key={idx} {..item}/>
+        )}
+        
       </div>
     </main>
   )
