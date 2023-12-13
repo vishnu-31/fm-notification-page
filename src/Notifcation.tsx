@@ -34,7 +34,7 @@ export const Notification: FC<NotifcationParams> = (props:NotifcationParams) => 
                     {!!props.image && <img className="h-10 w-10 ml-4 cursor-pointer" src={props.image.src} alt={props.image.alt} />}
                 </div>
                 
-                {!!props.taggedMessage && <div className="flex border-[1px] rounded p-5 text-sm text-gray-500 border-gray-300 transition-color ease-in-out duration-300 cursor-pointer hover-tagged">
+                {!!props.taggedMessage && <div className="flex border-[1px] rounded my-2 p-5 text-sm text-gray-500 border-gray-300 transition-color ease-in-out duration-300 cursor-pointer hover-tagged">
                     {props.taggedMessage}
                 </div>}
             </div>
