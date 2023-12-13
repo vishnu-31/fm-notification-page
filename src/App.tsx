@@ -68,7 +68,7 @@ function App() {
   return (
     <main className='bg-white rounded w-screen min-h-[100svh] max-h-fit p-5 justify-center lg:w-[40em] lg:min-h-fit'>
       <div className="flex justify-between">
-        <div className='flex'><h1 className='font-bold text-xl'>Notfications</h1>{!isRead && <span className='mx-3 px-3 text-white rounded-lg bg-blue-900'>3</span>}</div>
+        <div className='flex'><h1 className='font-bold text-xl'>Notfications</h1>{!isRead && <span className='mx-3 px-3 py-0 text-white rounded-lg bg-blue-900'>3</span>}</div>
         <button className='text-gray-500 hover:text-blue-400' type="button" onClick={toggleRead}>Mark all as read</button>
       </div>
       <div className="flex flex-col w-full my-3">
