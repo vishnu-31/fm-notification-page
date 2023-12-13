@@ -11,3 +11,18 @@ body{
     align-items: center;
     background-color: hsl(210, 60%, 98%);
 }
+.unread{
+   background-color:  hsl(210, 60%, 98%); 
+}
+
+.hover-tagged:hover{
+    background-color:  hsl(211, 68%, 94%);
+}
+
+.user-text{
+    color: hsl(224, 21%, 14%)
+}
+
+.highlighted-text{
+    color:   hsl(219, 12%, 42%);
+}
